@@ -3,16 +3,14 @@ package composition;
 public class Monitor {
 
     private Resolution resolution;
+    private String model;
+    private String manufacture;
 
     public Monitor(Resolution resolution, String model, String manufacture) {
         this.resolution = resolution;
         this.model = model;
         this.manufacture = manufacture;
     }
-
-    private String model;
-    private String manufacture;
-
 
 
 
